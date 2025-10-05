@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import { DownloadIcon } from './icons';
 
 const skills = [
-  'Frontend', 'Backend', 'UI/UX', 'AI Integration', 'Cloud'
+  'Frontend', 'Backend', 'UI/UX', 'AI Integration'
 ];
 
 const About: React.FC = () => {
