@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hai Zuro — Developer & Creative Technologist</title>
+    <meta name="description" content="Professional portfolio of Zuro, a developer and creative technologist specializing in React, UI/UX, and AI integration." />
+    <meta property="og:title" content="Hai Zuro — Developer & Creative Technologist" />
+    <meta property="og:description" content="Explore the portfolio of Zuro, showcasing projects in web development, design, and creative technology." />
+    <meta property="og:image" content="/assets/project1.jpg" />
+    <meta property="og:url" content="https://haizuro.dev" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            fontFamily: {
+              'sans': ['Poppins', 'sans-serif'],
+            },
+            colors: {
+              dark: '#0B132B',
+              'neon-tosca': '#6FFFE9',
+              'light-text': '#FFFFFF',
+              'dark-text': '#1C2541',
+              'light-bg': '#F8F9FA',
+              'glass-dark': 'rgba(28, 37, 65, 0.5)',
+              'glass-light': 'rgba(255, 255, 255, 0.5)',
+            },
+            keyframes: {
+              gradient: {
+                '0%': { backgroundPosition: '0% 50%' },
+                '50%': { backgroundPosition: '100% 50%' },
+                '100%': { backgroundPosition: '0% 50%' },
+              }
+            },
+            animation: {
+              gradient: 'gradient 15s ease infinite',
+            }
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "framer-motion": "https://aistudiocdn.com/framer-motion@^12.23.22"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
